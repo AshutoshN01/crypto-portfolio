@@ -1,0 +1,13 @@
+import type { Types } from 'mongoose'
+
+declare global {
+  namespace Express {
+    interface Request {
+      user?: {
+        id: string
+        roles: string[]
+        mongoId: Types.ObjectId
+      }
+    }
+  }
+}
