@@ -1,7 +1,7 @@
 CryptoDashboard — Foundation
 =================================
 
-This repository contains the Phase 2 foundation for the Crypto Portfolio Management Platform. It includes a TypeScript React frontend and a Node.js + Express TypeScript backend.
+This repository contains the Crypto Portfolio Management Platform. It includes a TypeScript React frontend and a Node.js + Express TypeScript backend.
 
 Installation & quick start
 -------------------------
@@ -14,12 +14,11 @@ From repository root, run:
 Using pnpm (recommended):
 
 ```powershell
-cd "c:\Users\dell\OneDrive\Desktop\new bash\CryptoDashboard\frontend"
 pnpm install
 pnpm dev
 
 # in a second terminal for the backend
-cd "c:\Users\dell\OneDrive\Desktop\new bash\CryptoDashboard\server"
+
 pnpm install
 pnpm dev
 ```
